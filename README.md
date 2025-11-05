@@ -1,277 +1,209 @@
-# [Purity UI Dashboard](https://demos.creative-tim.com/purity-ui-dashboard) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fpurity-ui-dashboard%2F&text=Check%20Purity%20UI%20Dashboard%20made%20by%20%40CreativeTim%20%26%20%40simmmple_web)
+# Sistem Informasi Penjualan & Manajemen Stok Batik H.M. Akmal
 
-![version](https://img.shields.io/badge/version-1.0.1-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/purity-ui-dashboard.svg?maxAge=2592000)](https://github.com/creativetimofficial/purity-ui-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/purity-ui-dashboard.svg?maxAge=2592000)](https://github.com/creativetimofficial/purity-ui-dashboard/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-![Product Gif](https://i.ibb.co/7NXMZQS/Cover-Purity-Chakra-FREE-Thumbnail.png)
+Sistem Informasi Penjualan & Manajemen Stok untuk UMKM Batik H.M. Akmal. Aplikasi web berbasis React.js yang membantu mengelola operasional penjualan, stok, dan reseller untuk bisnis batik cap & printing.
 
-Most trendiest, complex and innovative Dashboard Made by [Creative Tim](https://creative-tim.com/?ref=readme-pud) & [Simmmple](https://simmmple.com?ref=readme-pud). Check our latest Free ReactJS Dashboard based on Chakra UI.
+## 📋 Tentang Project
 
-Designed for those who like modern UI elements and beautiful websites. Made of hundred of elements, designed blocks and fully coded pages, Purity UI Dashboard is ready to help you create stunning websites and webapps.
+**Batik H.M. Akmal** adalah perusahaan keluarga berskala kecil-menengah (UMKM) yang bergerak di bidang produksi dan penjualan batik cap & printing melalui dua saluran distribusi. Sistem ini dirancang khusus untuk membantu mengoptimalkan operasional bisnis dengan fitur-fitur manajemen penjualan, stok, dan reseller yang terintegrasi.
 
-We created many examples for pages like Sign In, Profile and so on. Just choose between a Basic Design, an illustration or a cover and you are good to go!
+## ✨ Fitur Utama
 
-**Fully Coded Elements**
+### 1. Dashboard Utama
+- Ringkasan statistik penjualan bulanan
+- Unit terjual dan reseller aktif
+- Grafik penjualan dan transaksi terbaru
+- Produk terlaris
 
-Purity UI Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using Chakra's style props.
+### 2. Penjualan & Reseller Management
+- Pencatatan seluruh transaksi toko & reseller
+- Input pesanan reseller langsung melalui web
+- Notifikasi otomatis ketika:
+  - Pesanan sudah diproses
+  - Pesanan sudah dikirim
+  - Stok kosong
 
-You will save a lot of time going from prototyping to full-functional code, because all elements are implemented.
-This Free Chakra UI Dashboard is coming with prebuilt design blocks, so the development process is seamless,
-switching from our pages to the real website is very easy to be done.
+### 3. Stok & Gudang
+- Input stok masuk dari pabrik
+- Input stok keluar ke pelanggan/reseller
+- Sinkronisasi otomatis antara stok toko dan stok online
+- Laporan stok menipis
+- Laporan produk terlaris
 
-Check all components <a href="https://demos.creative-tim.com/docs-purity-ui-dashboard/?ref=readme-pud" target="_blank">here</a>.
+### 4. Laporan & Analisis
+- Laporan penjualan harian/bulanan
+- Analisis produk terlaris
+- Laporan stok dan inventori
+- Grafik dan visualisasi data
 
-**Documentation built by Developers**
+### 5. Profil & Pengaturan
+- Manajemen informasi admin
+- Pengaturan platform dan akun
+- Notifikasi dan pesan
+- Manajemen produk batik
 
-Each element is well presented in a very complex documentation.
-You can read more about the <a href="https://demos.creative-tim.com/docs-purity-ui-dashboard/?ref=readme-pud" target="_blank">documentation here</a>.
+### 6. Autentikasi
+- Halaman Sign In
+- Halaman Sign Up
+- Manajemen akun pengguna
 
-**Example Pages**
+## 🚀 Teknologi yang Digunakan
 
-If you want to get inspiration or just show something directly to your clients,
-you can jump start your development with our pre-built example pages. You will be able
-to quickly set up the basic structure for your web project.
-View <a href="https://demos.creative-tim.com/purity-ui-dashboard/#/admin/dashboard?ref=readme-pud" target="_blank">example pages here</a>.
+- **React.js** - Library JavaScript untuk membangun user interface
+- **Chakra UI** - Framework React untuk komponen UI yang modern
+- **React Router** - Routing untuk aplikasi React
+- **ApexCharts** - Library untuk membuat grafik dan visualisasi data
+- **Sass** - Preprocessor CSS
 
-**HELPFUL LINKS**
+## 📦 Instalasi
 
-- View <a href="https://github.com/creativetimofficial/purity-ui-dashboard" target="_blank">Github Repository</a>
+### Prasyarat
+- Node.js (v14 atau lebih tinggi)
+- npm atau yarn
 
-- Check <a href="https://www.creative-tim.com/knowledge-center?ref=readme-pud" target="_blank">FAQ Page</a>
+### Langkah Instalasi
 
-#### Special thanks
+1. Clone repository:
+```bash
+git clone https://github.com/your-username/batik-web.git
+cd batik-web
+```
 
-During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:
+2. Install dependencies:
+```bash
+npm install
+```
 
-- [Chakra UI](https://www.chakra-ui.com?ref=creative-tim) - Open source ReactJS framework
-- [ApexCharts.js](https://apexcharts.com?ref=creative-tim) - Modern & Interactive Open-source charts
-- [ReactJS](https://reactjs.org?ref=creative-tim) - A popular JavaScript library for building user interfaces
+3. Jalankan aplikasi:
+```bash
+npm start
+```
 
-Let us know your thoughts below. And good luck with development!
+Aplikasi akan berjalan di `http://localhost:3000`
 
-## Table of Contents
-
-- [Purity UI Dashboard](https://demos.creative-tim.com/purity-ui-dashboard/#/admin/dashboard?ref=readme-pud)
-- [Table of Contents](#table-of-contents)
-- [Versions](#versions)
-- [Demo](#demo)
-- [Quick start](#quick-start)
-- [Deploy](#deploy)
-- [Documentation](#documentation)
-- [File Structure](#file-structure)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-- [Reporting Issues](#reporting-issues)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
-- [Social Media](#social-media)
-
-## Versions
-
-[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/react-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/purity-ui-dashboard?ref=readme-pud)[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/figma-logo.jpg?raw=true" width="60" height="60" />](https://www.creative-tim.com/product/purity-ui-dashboard?ref=readme-pud)
-
-| React                                                                                                                                                                                        | Figma                                                                                                                                                                                   |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Purity Free ReactJS Chakra Dashboard](https://i.ibb.co/Ct9RvRZ/Cover-Purity-Chakra-FREE-Thumbnail-React-JS.png)](https://www.creative-tim.com/product/purity-ui-dashboard?ref=readme-pud) | [![Purity Free Figma Chakra Dashboard](https://i.ibb.co/wRK0jbK/Cover-Purity-Chakra-FREE-Thumbnail-Figma.png)](https://www.creative-tim.com/product/purity-ui-dashboard?ref=readme-pud) |
-
-## Demo
-
-- [Dashboard](https://demos.creative-tim.com/purity-ui-dashboard/#/admin/dashboard?ref=readme-pud)
-- [Tables page](https://demos.creative-tim.com/purity-ui-dashboard/#/admin/tables?ref=readme-pud)
-- [Billing page](https://demos.creative-tim.com/purity-ui-dashboard/#/admin/billing?ref=readme-pud)
-- [Profile page](http://demos.creative-tim.com/purity-ui-dashboard/#/admin/profile?ref=readme-pud)
-- [Sign in page](https://demos.creative-tim.com/purity-ui-dashboard/#/auth/signin?ref=readme-pud)
-- [Sign up page](https://demos.creative-tim.com/purity-ui-dashboard/#/auth/signup?ref=readme-pud)
-
-[View More](https://demos.creative-tim.com/purity-ui-dashboard/#/admin/dashboard?ref=readme-pud).
-
-## Quick Start
-
-- Clone the repo: `git clone https://github.com/creativetimofficial/purity-ui-dashboard.git`.
-- `cd purity-ui-dashboard`
-- `npm install`
-- `npm start`
-- [Download from Github](https://github.com/creativetimofficial/purity-ui-dashboard/archive/main.zip).
-- [Download from Creative Tim](https://www.creative-tim.com/product/purity-ui-dashboard).
-
-## Deploy
-
-:rocket: You can deploy your own version of the template to Genezio with one click:
-
-[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/purity-ui-dashboard&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
-
-## File Structure
-
-Within the download you'll find the following directories and files:
+## 📁 Struktur Project
 
 ```
-purity-ui-dashboard/
-├── .gitattributes
-├── .gitigonore
-├── CHANGELOG.md
-├── commit.sh
-├── gulpfile.js
-├── ISSUE_TEMPLATE.md
-├── jsconfig.json
-├── package-lock.json
-├── package.json
-├── README.md
-├── documentation
-├── node_modules
-├── public
+batik-web/
+├── public/
 │   ├── favicon.ico
 │   ├── index.html
 │   └── manifest.json
-└── src
-    ├── assets
-    │   ├── img
-    │   └── svg
-    ├── components
-    │   ├── Card
-    │   │   ├── Card.js
-    │   │   ├── CardBody.js
-    │   │   └── CardHeader.js
-    │   ├── Charts
-    │   │   ├── BarChart.js
-    │   │   └── LineChart.js
-    │   ├── Configurator
-    │   │   └── Configurator.js
-    │   ├── FixedPlugin
-    │   │   └── FixedPlugin.js
-    │   ├── Footer
-    │   │   └── Footer.js
-    │   ├── Icons
-    │   │   ├── IconBox.js
-    │   │   └── Icons.js
-    │   ├── Layout
-    │   │   ├── MainPanel.js
-    │   │   ├── PanelContainer.js
-    │   │   └── PanelContent.js
-    │   ├── Menu
-    │   │   └── ItemContent.js
-    │   ├── Navbars
-    │   │   ├── Searchbar
-    │   │   │   └── SearchBar.js
-    │   │   ├── AdminNavbar.js
-    │   │   ├── AdminNavbarLinks.js
-    │   │   └── AuthNavbar.js
-    │   ├── Other
-    │   │   ├── BillingRow.js
-    │   │   ├── InvoicesRow.js
-    │   │   └── TransactionRow.js
-    │   ├── Separator
-    │   │   └── Separator.js
-    │   ├── Sidebar
-    │   │   ├── Sidebar.js
-    │   │   └── SidebarHelp.js
-    │   └── Tables
-    │       ├── BillingRow.js
-    │       ├── DashboardTableRow.js
-    │       ├── InvoicesRow.js
-    │       ├── TablesProjectRow.js
-    │       ├── TablesTableRow.js
-    │       ├── TimelineRow.js
-    │       └── TransactionRow.js
-    ├── layouts
-    │   ├── Admin.js
-    │   ├── Auth.js
-    │   └── RTL.js
-    ├── theme
-    │   ├── additions
-    │   │   ├── card
-    │   │   │   ├── Card.js
-    │   │   │   ├── CardBody.js
-    │   │   │   └── CardHeader.js
-    │   │   ├── layout
-    │   │   │   ├── MainPanel.js
-    │   │   │   ├── PanelContainer.js
-    │   │   │   └── PanelContent.js
-    │   ├── components
-    │   │   ├── button.js
-    │   │   ├── link.js
-    │   │   └── drawer.js
-    │   ├── foundations
-    │   │   ├── breakpoints.js
-    │   │   └── text.js
-    │   ├── styles.js
-    │   └── theme.js
-    ├── variables
-    │   ├── charts.js
-    │   └── general.js
-    ├── views
-    │   ├── Dashboard
-    │   │   ├── Billing.js
-    │   │   ├── Dashboard.js
-    │   │   ├── Profile.js
-    │   │   └── Tables.js
-    │   ├── Pages
-    │       ├── SignIn.js
-    │       └── SignUp.js
-    │   └── RTL
-    │       └── RTLPage.js
-    ├── index.js
-    └── routes.js
-
+├── src/
+│   ├── assets/
+│   │   ├── img/
+│   │   └── svg/
+│   ├── components/
+│   │   ├── Card/
+│   │   ├── Charts/
+│   │   ├── Configurator/
+│   │   ├── Icons/
+│   │   ├── Layout/
+│   │   ├── Menu/
+│   │   ├── Navbars/
+│   │   ├── Sidebar/
+│   │   └── Tables/
+│   ├── layouts/
+│   │   ├── Admin.js
+│   │   ├── Auth.js
+│   │   └── RTL.js
+│   ├── theme/
+│   │   ├── components/
+│   │   ├── foundations/
+│   │   └── theme.js
+│   ├── variables/
+│   │   ├── charts.js
+│   │   └── general.js
+│   ├── views/
+│   │   ├── Auth/
+│   │   │   ├── SignIn.js
+│   │   │   └── SignUp.js
+│   │   └── Dashboard/
+│   │       ├── Dashboard/
+│   │       ├── Penjualan/
+│   │       ├── Stok/
+│   │       ├── Laporan/
+│   │       └── Profile/
+│   ├── index.js
+│   └── routes.js
+├── package.json
+└── README.md
 ```
 
-## Browser Support
+## 🎯 Halaman yang Tersedia
 
-At present, we officially aim to support the last two versions of the following browsers:
+- **Dashboard** (`/admin/dashboard`) - Halaman utama dengan statistik dan grafik
+- **Penjualan** (`/admin/penjualan`) - Manajemen penjualan dan reseller
+- **Stok** (`/admin/stok`) - Manajemen stok dan gudang
+- **Laporan** (`/admin/laporan`) - Laporan dan analisis data
+- **Profil** (`/admin/profile`) - Pengaturan profil dan akun
+- **Sign In** (`/auth/signin`) - Halaman login
+- **Sign Up** (`/auth/signup`) - Halaman registrasi
 
-<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/chrome-logo.png?raw=true" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/firefox-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/edge-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/safari-logo.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/opera-logo.png" width="64" height="64">
+## 🔧 Konfigurasi
 
-## Resources
+### Environment Variables
+Untuk konfigurasi tambahan, buat file `.env` di root project:
 
-- Demo: <https://demos.creative-tim.com/purity-ui-dashboard/#/admin/dashboard?ref=readme-pud>
-- Download Page: <https://www.creative-tim.com/product/purity-ui-dashboard?ref=readme-pud>
-- License Agreement: <https://www.creative-tim.com/license?ref=readme-pud>
-- Support: <https://www.creative-tim.com/contact-us?ref=readme-pud>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/purity-ui-dashboard/issues)
+```env
+REACT_APP_API_URL=your_api_url
+REACT_APP_NAME=Batik H.M. Akmal
+```
 
-## Reporting Issues
+### Menjalankan di Development Mode
 
-We use GitHub Issues as the official bug tracker for the Purity UI Dashboard. Here are some advices for our users that want to report an issue:
+```bash
+npm start
+```
 
-1. Make sure that you are using the latest version of the Purity UI Dashbaord. Check the CHANGELOG from your dashboard on our [CHANGE LOG File](https://github.com/creativetimofficial/purity-ui-dashboard/blob/main/CHANGELOG.md?ref=readme-pud).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+### Build untuk Production
 
-## Licensing
+```bash
+npm run build
+```
 
-- Copyright 2021 Creative Tim (https://www.creative-tim.com/?ref=readme-pud)
+File build akan tersedia di folder `build/`.
 
-- Creative Tim License (https://www.creative-tim.com/license)
+## 📱 Browser Support
 
-## Useful Links
+Aplikasi ini mendukung browser modern terbaru:
+- Chrome (versi terbaru)
+- Firefox (versi terbaru)
+- Safari (versi terbaru)
+- Edge (versi terbaru)
 
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-pud) (earn money)
-- [Blog Creative Tim](http://creative-tim.com/blog?ref=readme-pud)
-- [Free Products](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-pud) from Creative Tim
-- [Premium Products](https://www.creative-tim.com/bootstrap-themes/premium?ref=readme-pud) from Creative Tim
-- [React Products](https://www.creative-tim.com/bootstrap-themes/react-themes?ref=readme-pud) from Creative Tim
-- [Angular Products](https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=readme-pud) from Creative Tim
-- [VueJS Products](https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=readme-pud) from Creative Tim
-- [More products](https://www.creative-tim.com/bootstrap-themes?ref=readme-pud) from Creative Tim
-- [More products](https://simmmple.gumroad.com?ref=readme-pud) from Simmmple
-- Check our Bundles [here](https://www.creative-tim.com/bundles?ref=readme-pud)
+## 🤝 Kontribusi
 
-### Social Media - Creative Tim
+Kontribusi untuk project ini sangat diterima! Jika Anda ingin berkontribusi:
 
-Twitter: <https://twitter.com/CreativeTim>
+1. Fork repository ini
+2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
+3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
+4. Push ke branch (`git push origin feature/AmazingFeature`)
+5. Buka Pull Request
 
-Facebook: <https://www.facebook.com/CreativeTim>
+## 📄 Lisensi
 
-Dribbble: <https://dribbble.com/creativetim>
+Project ini menggunakan lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
 
-Instagram: <https://www.instagram.com/CreativeTimOfficial>
+## 👥 Tim
 
-### Social Media - Simmmple
+**Batik H.M. Akmal**
+- Sistem Informasi Penjualan & Manajemen Stok
 
-Twitter: <https://twitter.com/simmmple_web>
+## 📞 Kontak
 
-Facebook: <https://www.facebook.com/simmmple.web>
+Untuk pertanyaan atau dukungan, silakan hubungi:
+- Email: admin@batik-hmakmal.com
+- Website: [Batik H.M. Akmal](https://batik-hmakmal.com)
 
-Dribbble: <https://dribbble.com/simmmple>
+## 🙏 Acknowledgments
 
-Instagram: <https://www.instagram.com/simmmple.web>
-# batik-web
+- [Chakra UI](https://www.chakra-ui.com) - Open source ReactJS framework
+- [ApexCharts.js](https://apexcharts.com) - Modern & Interactive Open-source charts
+- [ReactJS](https://reactjs.org) - A popular JavaScript library for building user interfaces
+
+---
+
+**Sistem Informasi Penjualan & Manajemen Stok Batik H.M. Akmal** - Membantu UMKM Batik mengoptimalkan operasional bisnis dengan teknologi modern.
